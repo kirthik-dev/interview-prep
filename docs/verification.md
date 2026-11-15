@@ -20,3 +20,17 @@ The in-app browser’s operating-system print dialog blocked automation when inv
 ## Deployment
 
 The delivery message reports the actual repository, Pages build and live-site verification result. The expected address alone is not proof of deployment.
+
+## Live deployment verified
+
+- Source: https://github.com/kirthik-dev/interview-prep
+- Site: https://kirthik-dev.github.io/interview-prep/
+- GitHub Pages reported the source build as `built` with no error.
+- Live HTML, CSS, JavaScript, favicon, coverage checklist and question manifest each returned HTTP 200 and matched their local source bytes exactly.
+- Live in-app browser: all 97 answers present, stylesheet loaded and no document horizontal overflow.
+- Live search for MLflow returned 10 answers; collapse produced zero visible open answers and expand reopened all 10.
+- Live MLflow example copy matched the source snippet exactly.
+- Live project navigation cleared the filter and reached Healthcare; a direct SCD2 answer URL opened the intended question.
+- No browser errors or warnings were recorded during the live checks.
+
+These checks establish the tested behavior. They do not establish that every external platform example was executed or that native print pagination is perfect.
