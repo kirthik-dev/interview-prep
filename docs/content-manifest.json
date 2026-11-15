@@ -1,0 +1,681 @@
+[
+  {
+    "id": "resume-q1",
+    "section": "resume",
+    "title": "Tell me about yourself",
+    "evidence": "Resume evidence",
+    "code": false
+  },
+  {
+    "id": "resume-q2",
+    "section": "resume",
+    "title": "How should I explain the skills section?",
+    "evidence": "Resume evidence",
+    "code": false
+  },
+  {
+    "id": "resume-q3",
+    "section": "resume",
+    "title": "How do I explain education and training?",
+    "evidence": "Resume evidence",
+    "code": false
+  },
+  {
+    "id": "resume-q4",
+    "section": "resume",
+    "title": "How do I explain the NIT population forecasting internship?",
+    "evidence": "Resume evidence",
+    "code": false
+  },
+  {
+    "id": "ylogx-q1",
+    "section": "ylogx",
+    "title": "What is a metadata-driven data quality platform?",
+    "evidence": "Resume evidence",
+    "code": true
+  },
+  {
+    "id": "ylogx-q2",
+    "section": "ylogx",
+    "title": "Which quality checks matter, and how are failures handled?",
+    "evidence": "Resume evidence",
+    "code": false
+  },
+  {
+    "id": "ylogx-q3",
+    "section": "ylogx",
+    "title": "How do I explain the approximately 40% onboarding improvement?",
+    "evidence": "Resume evidence",
+    "code": false
+  },
+  {
+    "id": "ylogx-q4",
+    "section": "ylogx",
+    "title": "What was PMAP and how did schema mapping work?",
+    "evidence": "Resume evidence",
+    "code": false
+  },
+  {
+    "id": "ylogx-q5",
+    "section": "ylogx",
+    "title": "How do Azure Blob, Git, and Azure DevOps fit into ETL generation?",
+    "evidence": "Resume evidence",
+    "code": false
+  },
+  {
+    "id": "ylogx-q6",
+    "section": "ylogx",
+    "title": "What did you do with dbt and Snowflake?",
+    "evidence": "Resume evidence",
+    "code": false
+  },
+  {
+    "id": "ylogx-q7",
+    "section": "ylogx",
+    "title": "How did SQL optimization and AI-assisted SQL review help?",
+    "evidence": "Resume evidence",
+    "code": false
+  },
+  {
+    "id": "ylogx-q8",
+    "section": "ylogx",
+    "title": "What does near-real-time serving with FastAPI and PostgreSQL mean?",
+    "evidence": "Resume evidence",
+    "code": false
+  },
+  {
+    "id": "ylogx-q9",
+    "section": "ylogx",
+    "title": "How do I explain my ownership and business impact?",
+    "evidence": "Resume evidence",
+    "code": false
+  },
+  {
+    "id": "healthcare-q1",
+    "section": "healthcare",
+    "title": "Explain Healthcare end to end",
+    "evidence": "Repository evidence",
+    "code": false
+  },
+  {
+    "id": "healthcare-q2",
+    "section": "healthcare",
+    "title": "What exactly happens in Bronze, Silver, and Gold?",
+    "evidence": "Repository evidence",
+    "code": false
+  },
+  {
+    "id": "healthcare-q3",
+    "section": "healthcare",
+    "title": "How were CDC events generated and transported?",
+    "evidence": "Repository evidence",
+    "code": false
+  },
+  {
+    "id": "healthcare-q4",
+    "section": "healthcare",
+    "title": "How did Silver merges work?",
+    "evidence": "Repository evidence",
+    "code": false
+  },
+  {
+    "id": "healthcare-q5",
+    "section": "healthcare",
+    "title": "How do checkpoints, replay, and recovery apply here?",
+    "evidence": "Repository evidence",
+    "code": false
+  },
+  {
+    "id": "healthcare-q6",
+    "section": "healthcare",
+    "title": "What are the Gold outputs and the star schema?",
+    "evidence": "Repository evidence",
+    "code": false
+  },
+  {
+    "id": "retail-q1",
+    "section": "retail",
+    "title": "What does the actual RetailPulse repository do?",
+    "evidence": "Repository evidence",
+    "code": false
+  },
+  {
+    "id": "retail-q2",
+    "section": "retail",
+    "title": "How would the requested local Delta + Unity Catalog design work?",
+    "evidence": "Proposed design",
+    "code": false
+  },
+  {
+    "id": "retail-q3",
+    "section": "retail",
+    "title": "How are batch files and Kafka events ingested?",
+    "evidence": "Repository evidence",
+    "code": false
+  },
+  {
+    "id": "retail-q4",
+    "section": "retail",
+    "title": "How do Silver changes and data quality gates work?",
+    "evidence": "Repository evidence",
+    "code": false
+  },
+  {
+    "id": "retail-q5",
+    "section": "retail",
+    "title": "What does Airflow orchestrate and what reaches the dashboard?",
+    "evidence": "Repository evidence",
+    "code": false
+  },
+  {
+    "id": "retail-q6",
+    "section": "retail",
+    "title": "How would you make RetailPulse production-ready?",
+    "evidence": "Repository evidence",
+    "code": false
+  },
+  {
+    "id": "olist-q1",
+    "section": "olist",
+    "title": "Explain the Olist project end to end",
+    "evidence": "Repository evidence",
+    "code": false
+  },
+  {
+    "id": "olist-q2",
+    "section": "olist",
+    "title": "What cleaning and derived features were created?",
+    "evidence": "Repository evidence",
+    "code": false
+  },
+  {
+    "id": "olist-q3",
+    "section": "olist",
+    "title": "Why can the joined fact table inflate revenue?",
+    "evidence": "Repository evidence",
+    "code": false
+  },
+  {
+    "id": "olist-q4",
+    "section": "olist",
+    "title": "What performance techniques were used and what do outputs mean?",
+    "evidence": "Repository evidence",
+    "code": false
+  },
+  {
+    "id": "foundations-q1",
+    "section": "foundations",
+    "title": "What are ETL and ELT?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "foundations-q2",
+    "section": "foundations",
+    "title": "Batch versus streaming: when do I use each?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "foundations-q3",
+    "section": "foundations",
+    "title": "Lake, warehouse, and lakehouse: what is the difference?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "foundations-q4",
+    "section": "foundations",
+    "title": "How do Bronze, Silver, and Gold differ in a generic pipeline?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "foundations-q5",
+    "section": "foundations",
+    "title": "Parquet, Delta, and Iceberg: what are they?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "foundations-q6",
+    "section": "foundations",
+    "title": "What do ACID, MERGE, schema evolution, and time travel mean?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "foundations-q7",
+    "section": "foundations",
+    "title": "How do storage, catalog, compute, and serving work together?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "foundations-q8",
+    "section": "foundations",
+    "title": "How do facts, dimensions, keys, and grain fit together?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "sql-q1",
+    "section": "sql",
+    "title": "How do INNER, LEFT, and other joins behave?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "sql-q2",
+    "section": "sql",
+    "title": "GROUP BY, WHERE, HAVING, and COUNT: what differs?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "sql-q3",
+    "section": "sql",
+    "title": "How do window functions differ from GROUP BY?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "sql-q4",
+    "section": "sql",
+    "title": "How do I deduplicate or find the latest row?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "sql-q5",
+    "section": "sql",
+    "title": "CTE, subquery, EXISTS, and incremental SQL: how do I use them?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "sql-q6",
+    "section": "sql",
+    "title": "How do SQL NULLs and safe division work?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "sql-q7",
+    "section": "sql",
+    "title": "How do I investigate a slow or incorrect SQL query?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "python-q1",
+    "section": "python",
+    "title": "Lists, tuples, dictionaries, and sets: when do I use each?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "python-q2",
+    "section": "python",
+    "title": "How do functions and exceptions make ETL safer?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "python-q3",
+    "section": "python",
+    "title": "How do I read files and handle JSON?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "python-q4",
+    "section": "python",
+    "title": "What is a generator and why is it useful?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "python-q5",
+    "section": "python",
+    "title": "What is a basic reliable ETL loop?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "spark-q1",
+    "section": "spark",
+    "title": "Driver, executors, partitions, and lazy evaluation: what happens?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "spark-q2",
+    "section": "spark",
+    "title": "What is a shuffle and why can it be expensive?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "spark-q3",
+    "section": "spark",
+    "title": "Broadcast join versus shuffle join: which should I use?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "spark-q4",
+    "section": "spark",
+    "title": "How do I detect and handle skew?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "spark-q5",
+    "section": "spark",
+    "title": "Repartition, coalesce, cache, and AQE: how do they differ?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "spark-q6",
+    "section": "spark",
+    "title": "How do I deduplicate with PySpark and enforce types?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "spark-q7",
+    "section": "spark",
+    "title": "What should I inspect when a Spark job fails or slows down?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "cdc-scd-q1",
+    "section": "cdc-scd",
+    "title": "What are the four common ways to capture changes?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "cdc-scd-q2",
+    "section": "cdc-scd",
+    "title": "Can you show CDC with a tiny generic example?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "cdc-scd-q3",
+    "section": "cdc-scd",
+    "title": "What are SCD Types 0, 1, 2, and 3?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "cdc-scd-q4",
+    "section": "cdc-scd",
+    "title": "How does an SCD Type 2 history actually look?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "cdc-scd-q5",
+    "section": "cdc-scd",
+    "title": "What are SCD Types 4, 5, 6, and 7?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "cdc-scd-q6",
+    "section": "cdc-scd",
+    "title": "How do CDC and SCD work together?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "streaming-q1",
+    "section": "streaming",
+    "title": "What is Azure Event Hubs?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "streaming-q2",
+    "section": "streaming",
+    "title": "What are Kafka topics, partitions, offsets, and consumer groups?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "streaming-q3",
+    "section": "streaming",
+    "title": "What do checkpoints and delivery guarantees really mean?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "streaming-q4",
+    "section": "streaming",
+    "title": "What are event time, processing time, windows, and watermarks?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "streaming-q5",
+    "section": "streaming",
+    "title": "What is a generic Structured Streaming example?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "platform-q1",
+    "section": "platform",
+    "title": "How does Airflow orchestration work?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "platform-q2",
+    "section": "platform",
+    "title": "What do dbt models, tests, and incremental materializations do?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "platform-q3",
+    "section": "platform",
+    "title": "Snowflake, BigQuery, Dataproc, ADF, and Composer: who does what?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "platform-q4",
+    "section": "platform",
+    "title": "How should a data API be designed?",
+    "evidence": "Concept lesson",
+    "code": true
+  },
+  {
+    "id": "platform-q5",
+    "section": "platform",
+    "title": "What does open-source Unity Catalog manage?",
+    "evidence": "Concept lesson",
+    "code": false
+  },
+  {
+    "id": "production-q1",
+    "section": "production",
+    "title": "How do you take a pipeline from development to production?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "production-q2",
+    "section": "production",
+    "title": "What do CI/CD, configuration, and secrets look like?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "production-q3",
+    "section": "production",
+    "title": "What if duplicate or out-of-order events arrive?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "production-q4",
+    "section": "production",
+    "title": "What if data arrives late or the source schema changes?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "production-q5",
+    "section": "production",
+    "title": "What if a merge fails or the job crashes mid-run?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "production-q6",
+    "section": "production",
+    "title": "How do you safely publish several PostgreSQL marts?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "production-q7",
+    "section": "production",
+    "title": "How do you run a backfill without breaking current data?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "production-q8",
+    "section": "production",
+    "title": "What if pipeline lag or freshness fails while tasks are green?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "production-q9",
+    "section": "production",
+    "title": "How do you respond to a wrong aggregate or revenue spike?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "production-q10",
+    "section": "production",
+    "title": "What are RPO, RTO, rollback, and disaster recovery?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "production-q11",
+    "section": "production",
+    "title": "How do you control cost and support production operations?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "ml-q1",
+    "section": "ml",
+    "title": "How do I describe my ML experience?",
+    "evidence": "User-described experience",
+    "code": false
+  },
+  {
+    "id": "ml-q2",
+    "section": "ml",
+    "title": "How does retail demand forecasting relate to stock on hand?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "ml-q3",
+    "section": "ml",
+    "title": "What features, lags, and rolling statistics are useful?",
+    "evidence": "Practice example",
+    "code": true
+  },
+  {
+    "id": "ml-q4",
+    "section": "ml",
+    "title": "How do I validate a forecast and avoid leakage?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "ml-q5",
+    "section": "ml",
+    "title": "What do MAE, WAPE, and forecast bias mean?",
+    "evidence": "Practice example",
+    "code": true
+  },
+  {
+    "id": "ml-q6",
+    "section": "ml",
+    "title": "How does financial inflow/outflow forecasting differ?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "ml-q7",
+    "section": "ml",
+    "title": "What does an end-to-end MLflow pipeline look like?",
+    "evidence": "Practice example",
+    "code": true
+  },
+  {
+    "id": "ml-q8",
+    "section": "ml",
+    "title": "How do batch inference, monitoring, retraining, and rollback work?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "rag-q1",
+    "section": "rag",
+    "title": "What is RAG and how does a document become an answer?",
+    "evidence": "Resume evidence",
+    "code": false
+  },
+  {
+    "id": "rag-q2",
+    "section": "rag",
+    "title": "How do embeddings, Chroma, MongoDB, and GraphDB differ?",
+    "evidence": "Resume evidence",
+    "code": false
+  },
+  {
+    "id": "rag-q3",
+    "section": "rag",
+    "title": "What do LangChain and LangGraph do?",
+    "evidence": "Resume evidence",
+    "code": false
+  },
+  {
+    "id": "rag-q4",
+    "section": "rag",
+    "title": "How do you evaluate and secure a RAG application?",
+    "evidence": "Practice example",
+    "code": false
+  },
+  {
+    "id": "revision-q1",
+    "section": "revision",
+    "title": "What should I revise in 30 minutes?",
+    "evidence": "Study guide",
+    "code": false
+  },
+  {
+    "id": "revision-q2",
+    "section": "revision",
+    "title": "How should I answer design and incident questions?",
+    "evidence": "Study guide",
+    "code": false
+  }
+]
